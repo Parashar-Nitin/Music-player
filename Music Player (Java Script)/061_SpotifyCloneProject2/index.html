@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotiee Player</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="upperLeft boxMargin">
+          <div class="logo">
+            <img src="img/logo.svg" alt="logo" class="upperLeftImg invert" />
+          </div>
+          <div class="content">
+            <ul>
+              <li>
+                <img src="img/home.svg" alt="HomeImg" class="logoSize invert" />
+              </li>
+              <li>Home</li>
+            </ul>
+            <ul>
+              <li>
+                <img
+                  src="img/search.svg"
+                  alt="HomeImg"
+                  class="logoSize invert"
+                />
+              </li>
+              <li>Search</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lowerLeft boxMargin">
+          <div class="libraryHead">
+            <img
+              src="img/playlist.svg"
+              alt="playlist"
+              class="logoSize invert"
+            />
+            <h2>Your Library</h2>
+          </div>
+
+          <div class="libBody">
+            <!-- <div class="songBox">
+                        <div class="songIcon">
+                            <img src="img/music.svg" alt="musicJpg" class="invert">
+                        </div>
+                        <div class="songContent">
+                            <div class="songName">Ik Tara</div>
+                            <div class="songAuthor">out of control</div>
+                        </div>
+                        <div class="playControl">
+                            <div class="playText">Play Now</div>
+                            <img src="img/play.svg" alt="" class="playButton invert">
+                        </div>
+                    </div> -->
+          </div>
+
+          <div class="libraryFoot">
+            <div class="libFootElements">Legal</div>
+            <div class="libFootElements">Privacy Center</div>
+            <div class="libFootElements">Privacy Policy</div>
+            <div class="libFootElements">Cookies</div>
+            <div class="libFootElements" id="about">About ads</div>
+            <div class="libFootElements">Accessibilities</div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="upperRight boxMargin">
+          <nav class="upperRightNav">
+            <div class="nextPreButtons">
+              <img src="img/lessThan.svg" alt="lessThan" />
+              <img src="img/greaterThan.svg" alt="greaterThan" />
+            </div>
+            <div class="loginControl">
+              <div class="logIn">Log In</div>
+              <div class="signUp invert">Sign Up</div>
+            </div>
+          </nav>
+        </div>
+        <div class="lowerRight boxMargin">
+          <div class="lowerRightContent">
+            <h1>Spotify Playlist</h1>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="cardImg">
+                <img src="cardLogo.webp" alt="card holder" />
+                <img class="cardPlay" src="img/playButtonForAlbum.svg" alt="" />
+              </div>
+              <h2>Happy Hits</h2>
+              <h4>
+                This music specialy for happy mood and anyone can enjoy it.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="lowerRightFoot">
+          <div class="controls">
+            <div class="songInfo">No song Playing</div>
+            <div class="playbut">
+              <img class="prev" src="img/prevsong.svg" alt="" />
+              <img class="play" src="img/play.svg" alt="" onclick="controls()"/>
+              <img class="next" src="img/nextsong.svg" alt="" />
+            </div>
+            <div class="timeVol">
+              <div class="songTime">00:00/00:00</div>
+              <img src="img/volume.svg" alt="" class="volIcon invert">
+              <input type="range" class="volRange" name="volume" id="">
+            </div>
+          </div>
+          <div class="seekbar">
+            <div class="bar">
+
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="test"></div>
+
+    <script src="script/script.js"></script>
+    <!-- <script src="script/server.js"></script> -->
+  </body>
+</html>

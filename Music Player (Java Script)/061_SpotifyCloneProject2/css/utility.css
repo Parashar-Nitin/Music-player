@@ -1,0 +1,12 @@
+.invert{
+    filter: invert(1);
+}
+
+.boxMargin{
+    margin:18px 4px 10px 10px;
+}
+
+.logoSize{
+    height:20px;
+    width:20px;
+}
